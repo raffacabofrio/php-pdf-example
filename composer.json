@@ -1,0 +1,13 @@
+{
+    "name": "raffacabofrio/php-pdf-example",
+    "type": "project",
+    "require": {
+        "setasign/fpdf": "^1.8"
+    },
+    "authors": [
+        {
+            "name": "Raffaello Damgaard",
+            "email": "raffacabofrio@gmail.com"
+        }
+    ]
+}
