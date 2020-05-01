@@ -19,5 +19,8 @@
     "psr-4": {
       "raffaClasses\\": "src/classes"
     }
+  },
+  "config": {
+    "vendor-dir": "src/vendor"
 }
 }

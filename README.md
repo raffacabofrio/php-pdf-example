@@ -8,7 +8,7 @@ composer init
 composer install setasign/fpdf
 
 # 3 - rodar local
-composer start
+php -S localhost:8000 -t src
 
 ```
 

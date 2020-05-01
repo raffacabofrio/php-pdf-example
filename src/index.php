@@ -1,5 +1,5 @@
 <?
-  require('../vendor/autoload.php');
+  require('vendor/autoload.php');
   
   // $obj = new raffaClasses\my_class();
   // $obj->hello();
