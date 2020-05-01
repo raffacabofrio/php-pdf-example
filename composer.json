@@ -1,13 +1,23 @@
 {
-    "name": "raffacabofrio/php-pdf-example",
-    "type": "project",
-    "require": {
-        "setasign/fpdf": "^1.8"
-    },
-    "authors": [
-        {
-            "name": "Raffaello Damgaard",
-            "email": "raffacabofrio@gmail.com"
-        }
-    ]
+  "name": "raffacabofrio/php-pdf-example",
+  "type": "project",
+  "description": "Projeto de exemplo PHP",
+  "license": "Apache-2.0",
+  "require": {
+    "setasign/fpdf": "^1.8"
+  },
+  "scripts": {
+    "start": "php -S localhost:8000 -t src"
+  },
+  "authors": [
+    {
+      "name": "Raffaello Damgaard",
+      "email": "raffacabofrio@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "raffaClasses\\": "src/classes"
+    }
+}
 }
