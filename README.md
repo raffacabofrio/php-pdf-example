@@ -1,15 +1,14 @@
-Como criar um projeto PHP do zero. E instalar uma dependência pelo composer.
+Mini projeto de exemplo pra testar um componente PDF no PHP.
 
 ```bash
-# 1 - cria um projeto do zero
-composer init
-
-# 2 - instala a dependência do PDF
+# 1 - instala a dependência do PDF
 composer install setasign/fpdf
 
-# 3 - rodar local
+# 2 - rodar local
 php -S localhost:8000 -t src
 
+# 3 - abra no navegador
+# http://localhost:8000/
 ```
 
 ## Pré requisitos
